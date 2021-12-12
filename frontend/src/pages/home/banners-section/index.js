@@ -9,28 +9,28 @@ const Banners = () => {
         <div class="carousel-item active">
           <img
             class="d-block w-100"
-            src="/img/banners-home/Banners_Home_001.jpg"
+            src="/img/banners-home/banner-home-1.png"
             alt="First slide"
           />
         </div>
         <div class="carousel-item">
           <img
             class="d-block w-100"
-            src="/img/banners-home/Banners_Home_002.jpg"
+            src="/img/banners-home/banner-home-2.png"
             alt="second slide"
           />
         </div>
         <div class="carousel-item">
           <img
             class="d-block w-100"
-            src="/img/banners-home/Banners_Home_003.jpg"
+            src="/img/banners-home/banner-home-3.png"
             alt="third slide"
           />
         </div>
         <div class="carousel-item">
           <img
             class="d-block w-100"
-            src="/img/banners-home/Banners_Home_004.jpg"
+            src="/img/banners-home/banner-home-4.png"
             alt="First slide"
           />
         </div>

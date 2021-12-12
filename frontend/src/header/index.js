@@ -17,8 +17,8 @@ const Header = () => (
           <Link to="/franquicia" class="color-link">Franquicia</Link>
 
           <div className="social">          
-                <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>         
+            <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+            <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>         
           </div>
         </li>
       </ul>
