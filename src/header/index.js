@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Header = () => (
   <div className="header">
     <div class="logo">
-      <img src="/img/logo.png" alt="La Pinocha logo"></img>
+      <a href="/"><img src="/img/logo.png" alt="La Pinocha logo"></img></a>
     </div>
     <div class="nav-menu">
       <ul>
