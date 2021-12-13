@@ -8,9 +8,8 @@ body {
   font-family: 'monserrat-regular';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: white;
 }
-
-
 
 .header {
   background-color: #F18F78;
@@ -19,13 +18,29 @@ body {
   width: 100%;
   justify-content: space-around;
   align-items: center;
+  font-weight: bold;
+}
+.nav-menu {
+  margin-top: 1%;
+}
+.list-elements {
+  font-size: 11px;
+  display:inline-flex;
 }
 
 .logo {
   flex-direction: row;
-
 }
-
+.social-icon {
+  margin-top:5px;
+  flex-direction: row;
+}
+.icon-1 {
+  margin-left: 20px;
+}
+.icon-2 {
+  margin-left: 10px;
+}
 ul {
   list-style: none;
 }
@@ -34,8 +49,49 @@ ul {
   margin: 5px;
   text-decoration: none;
 }
-.list-elements{
-  display:inline-flex;
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+.box-middle {
+  margin-top: 2%;
+  margin-bottom: 12%;
+  width: 100%;
+}
+.box-middle_img1 {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+.box-middle_img2 {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  opacity: .5;
+}
+.box-middle_text {
+padding-top: 20px;
+text-align: center;
+}
+.box-middle_text1 {
+  margin-top: 10px;
+  color:white;
+  font-size: 15px;
+  font-weight: bold;
+}
+.box-middle_text2 {
+  margin-top: -18px;
+  color:white;
+  font-size: 12px;
+}
+
+.botton-img1 {
+  position: absolute;
+  background-image:("img/estamos-cerca-home.png");
+  color: #F18F78;
 
 }
+
+
 

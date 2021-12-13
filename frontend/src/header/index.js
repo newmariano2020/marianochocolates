@@ -11,14 +11,14 @@ const Header = () => (
       <ul>
 
         <li class="list-elements">
-          <Link to="/productos" class="color-link">Comprá Online</Link>
-          <Link to="/conocenos" class="color-link">Conócenos</Link>
-          <Link to="/sucursales" class="color-link">Sucursales</Link>
-          <Link to="/franquicia" class="color-link">Franquicia</Link>
+          <Link to="/productos" class="color-link">COMPRÁ ONLINE</Link>
+          <Link to="/conocenos" class="color-link">CONÓCENOS</Link>
+          <Link to="/sucursales" class="color-link">SUCURSALES</Link>
+          <Link to="/franquicia" class="color-link">FRANQUICIA</Link>
 
-          <div className="social">          
-            <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-            <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>         
+          <div className="social-icon">
+            <img src="/img/instagram-white.png" alt="" class="icon-1"/>
+            <img src="/img/facebook-white.png" alt="" class="icon-2"/>
           </div>
         </li>
       </ul>
