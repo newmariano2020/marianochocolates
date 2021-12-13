@@ -10,6 +10,7 @@ import KnowUs from './pages/conocenos';
 import Branches from './pages/sucursales';
 import Franchise from './pages/franquicia';
 import Header from './header';
+import Footer from './footer';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -21,6 +22,7 @@ ReactDOM.render(
       <Route path="sucursales" element={<Branches />} />
       <Route path="franquicia" element={<Franchise />} />
     </Routes>
+    <Footer/>
   </BrowserRouter>,
   document.getElementById('root')
 );

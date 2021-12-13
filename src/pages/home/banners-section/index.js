@@ -2,57 +2,39 @@ const Banners = () => {
   return (
     <div
       id="carouselExampleControls"
-      class="carousel slide"
+      className="carousel slide"
       data-ride="carousel"
     >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
+      <div className="carousel-inner">
+        <div className="carousel-item active">
           <img
-            class="d-block w-100"
-            src="/img/banners-home/banner-home-1.png"
+            className="d-block w-100"
+            src={require("../../../img/banners-home/banner-home-1.png").default}
             alt="First slide"
-          />
+            />
         </div>
-        <div class="carousel-item">
+        <div className="carousel-item">
           <img
-            class="d-block w-100"
-            src="/img/banners-home/banner-home-2.png"
-            alt="second slide"
-          />
+            className="d-block w-100"
+            src={require("../../../img/banners-home/banner-home-2.png").default}
+            alt="Second slide"
+            />
         </div>
-        <div class="carousel-item">
+        <div className="carousel-item">
           <img
-            class="d-block w-100"
-            src="/img/banners-home/banner-home-3.png"
-            alt="third slide"
-          />
+            className="d-block w-100"
+            src={require("../../../img/banners-home/banner-home-3.png").default}
+            alt="Third slide"
+            />
         </div>
-        <div class="carousel-item">
+        <div className="carousel-item">
           <img
-            class="d-block w-100"
-            src="/img/banners-home/banner-home-4.png"
-            alt="First slide"
+            className="d-block w-100"
+            src={require("../../../img/banners-home/banner-home-4.png").default}
+            alt="Fourth slide"
           />
         </div>
       </div>
-      <a
-        class="carousel-control-prev"
-        href="#carouselExampleControls"
-        role="button"
-        data-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a
-        class="carousel-control-next"
-        href="#carouselExampleControls"
-        role="button"
-        data-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
     </div>
   );
 };

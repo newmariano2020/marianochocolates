@@ -1,9 +1,8 @@
 const ButtonSection = () => {
     return (
         
-     <div class="botton-col" >
-       <div class= "botton-img1">
-         <a href=""></a>
+     <div className="botton-col" >
+       <div className= "botton-img1">
        </div>
      </div>
 

@@ -5,14 +5,14 @@
 
 body {
   margin: 0;
-  font-family: 'monserrat-regular';
+  font-family: "monserrat-regular";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: white;
 }
 
 .header {
-  background-color: #F18F78;
+  background-color: #f18f78;
   display: flex;
   height: 10%;
   width: 100%;
@@ -25,14 +25,14 @@ body {
 }
 .list-elements {
   font-size: 11px;
-  display:inline-flex;
+  display: inline-flex;
 }
 
 .logo {
   flex-direction: row;
 }
 .social-icon {
-  margin-top:5px;
+  margin-top: 5px;
   flex-direction: row;
 }
 .icon-1 {
@@ -56,7 +56,7 @@ a:hover {
 }
 .box-middle {
   margin-top: 2%;
-  margin-bottom: 12%;
+  margin-bottom: 2%;
   width: 100%;
 }
 .box-middle_img1 {
@@ -68,30 +68,123 @@ a:hover {
   position: absolute;
   width: 100%;
   z-index: -1;
-  opacity: .5;
+  opacity: 0.5;
 }
 .box-middle_text {
-padding-top: 20px;
-text-align: center;
+  padding-top: 20px;
+  text-align: center;
 }
 .box-middle_text1 {
   margin-top: 10px;
-  color:white;
+  color: white;
   font-size: 15px;
   font-weight: bold;
 }
 .box-middle_text2 {
   margin-top: -18px;
-  color:white;
+  color: white;
   font-size: 12px;
 }
 
 .botton-img1 {
   position: absolute;
-  background-image:("img/estamos-cerca-home.png");
-  color: #F18F78;
-
+  background-image: url("img/estamos-cerca-home.png");
+  color: #f18f78;
 }
 
+.destacado {
+  width: 414px;
+  height: 500px;
+  background-color: red;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
+.destacados {
+  display: flex;
+  flex-direction: row;
+  margin-top: 57px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
+.destacado-1 {
+  background-image: url("img/estamos-cerca-home.png");
+}
+
+.destacado-2 {
+  background-image: url("img/sabores-supremos-home.png");
+}
+
+.destacado-3 {
+  background-image: url("img/somos-la-pinocha-home.png");
+}
+
+.fondo-medio-front {
+  background-image: url("img/fondo-medio-front.png");
+}
+
+.fondo-medio-back {
+  background-image: url("img/fondo-medio-back.png");
+}
+
+.footer {
+  margin-top: 2%;
+  background-color: #525251;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 194px;
+}
+
+.upper-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-footer .text-left-footer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.left-footer .title {
+  font-weight: bold;
+}
+
+.footer .upper-section {
+  height: 145px;
+}
+
+.footer .rights {
+  background-color: #252525;
+  height: 49px;
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+.destacado-middle-section .call-to-action {
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+}
+
+.destacado-middle-section {
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-content: center;
+}
