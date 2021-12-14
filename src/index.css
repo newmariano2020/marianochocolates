@@ -113,21 +113,21 @@ a:hover {
 
 .destacado-1 {
   background-image: url("img/estamos-cerca-home.png");
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
   margin-left: 13%;
-  height: 347px;
 }
 
 .destacado-2 {
   background-image: url("img/sabores-supremos-home.png");
-  background-size: contain;
-  height: 347px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .destacado-3 {
   background-image: url("img/somos-la-pinocha-home.png");
-  background-size: contain;
-  height: 347px;
+  background-size: cover;
+  background-repeat: no-repeat;
   margin-right: 13%;
 }
 
