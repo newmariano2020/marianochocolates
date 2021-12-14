@@ -8,7 +8,7 @@ import Home from './pages/home';
 import Products from './pages/productos';
 import KnowUs from './pages/conocenos';
 import Branches from './pages/sucursales';
-import Franchise from './pages/franquicia';
+import Franchise from './pages/franquicias';
 import Header from './header';
 import Footer from './footer';
 

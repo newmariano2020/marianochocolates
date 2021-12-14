@@ -186,7 +186,7 @@ a:hover {
 }
 
 .destacado-middle-section .call-to-action {
-  border: 1.5px solid #FFFFFF;
+  border: 1.5px solid #ffffff;
   border-radius: 15px;
 }
 
@@ -250,3 +250,61 @@ a:hover {
   margin-top: 5px;
 }
 
+.top-section {
+  background-color: #fdad99;
+  height: 318px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.top-section .familia-la-pinocha {
+  font-size: 49px;
+}
+
+.top-section .conoce-nuestra-historia {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.conocenos .conoce-nuestra-historia-2 {
+  margin-bottom: 45px;
+}
+
+.conocenos .logo-conocenos {
+  margin-top: -107px;
+  height: 214px;
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.conocenos .text-section,
+.franquicias .text-section {
+  text-align: center;
+  width: 729px;
+  margin: auto;
+  margin-top: 89px;
+  margin-bottom: 85px;
+}
+
+.franquicias .text-section {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.contact-us-form .form-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-us-form .form-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
