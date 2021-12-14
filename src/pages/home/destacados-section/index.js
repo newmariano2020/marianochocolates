@@ -4,20 +4,20 @@ const Destacados = () => {
   return <div className="destacados">
     <div className="destacado destacado-1">
      <MiddleSection
-      message="asdf"
-      callToActionText="asdf"
+      message="Estamos Cerca"
+      callToActionText="SUCURSALES"
      ></MiddleSection>
     </div>
     <div className="destacado destacado-2">
      <MiddleSection
-      message="asdf"
-      callToActionText="asdf"
+      message="Sabores Supremos"
+      callToActionText="PRODUCTOS"
      ></MiddleSection>
     </div>
     <div className="destacado destacado-3">
      <MiddleSection
-      message="asdf"
-      callToActionText="asdf"
+      message="Somos La Pinocha"
+      callToActionText="CONOCENOS"
      ></MiddleSection>
     </div>
   </div>

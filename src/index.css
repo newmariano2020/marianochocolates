@@ -113,14 +113,22 @@ a:hover {
 
 .destacado-1 {
   background-image: url("img/estamos-cerca-home.png");
+  background-size: contain;
+  margin-left: 13%;
+  height: 347px;
 }
 
 .destacado-2 {
   background-image: url("img/sabores-supremos-home.png");
+  background-size: contain;
+  height: 347px;
 }
 
 .destacado-3 {
   background-image: url("img/somos-la-pinocha-home.png");
+  background-size: contain;
+  height: 347px;
+  margin-right: 13%;
 }
 
 .fondo-medio-front {
@@ -143,6 +151,7 @@ a:hover {
 .upper-section {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .left-footer {
@@ -154,6 +163,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   margin-left: 10px;
+  width: 50%;
 }
 
 .left-footer .title {
@@ -176,8 +186,8 @@ a:hover {
 }
 
 .destacado-middle-section .call-to-action {
-  border: 1px solid #FFFFFF;
-  border-radius: 10px;
+  border: 1.5px solid #FFFFFF;
+  border-radius: 15px;
 }
 
 .destacado-middle-section {
@@ -188,3 +198,55 @@ a:hover {
   flex-direction: column;
   align-content: center;
 }
+.message {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+.call-to-action {
+  font-size: 10px;
+  margin: auto;
+  width: 10em;
+  height: 30px;
+  padding-top: 7px;
+}
+.logo-footer {
+  align-self: center;
+  margin-left: 160px;
+}
+.text-left-footer {
+  font-size: 10px;
+  align-self: center;
+  margin-left: 5px;
+}
+.bajada-de-linea {
+  width: 250px;
+}
+.right-footer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  font-size: 10px;
+  align-self: center;
+}
+.right-footer-text {
+  flex-wrap: wrap;
+  margin-left: 345px;
+}
+.rights {
+  font-size: 9px;
+}
+.follow-us {
+  align-self: center;
+  font-size: 10px;
+  width: 75px;
+  margin-right: 145px;
+}
+.follow-text {
+  margin-bottom: 5px;
+}
+.footer-logo-right {
+  margin-top: 5px;
+}
+
