@@ -166,15 +166,13 @@ a:hover {
   width: 50%;
 }
 .title {
- font-size: 14px;
- letter-spacing: 0px;
- line-height: 19px;
- color: #ffffff;
- font-weight: 600;
- font-family: "Montserrat";
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 19px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Montserrat";
 }
-
-
 
 .footer .upper-section {
   height: 145px;
@@ -252,27 +250,27 @@ a:hover {
   font-family: "Montserrat";
 }
 .rights {
- font-size: 12px;
- letter-spacing: 0px;
- line-height: 19px;
- color: #ffffff;
- font-weight: 400;
- font-family: "Montserrat";
- text-align: center;
+  font-size: 12px;
+  letter-spacing: 0px;
+  line-height: 19px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
 }
 .follow-us {
   align-self: center;
-  
+
   width: 75px;
   margin-right: 145px;
 }
 .follow-text {
-font-size: 14px;
-letter-spacing: 0px;
-line-height: 19px;
-color: #ffffff;
-font-weight: 600;
-font-family: "Montserrat";
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 19px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Montserrat";
   margin-bottom: 5px;
 }
 .footer-logo-right {
@@ -288,6 +286,10 @@ font-family: "Montserrat";
   align-content: center;
   justify-content: center;
   text-align: center;
+}
+
+.sucursales .top-section {
+  height: 170px;
 }
 
 .top-section .familia-la-pinocha {
@@ -368,11 +370,55 @@ font-family: "Montserrat";
   background-color: #ef8f7a;
 }
 .form-label {
-font-size: 25px;
-letter-spacing: 0px;
-line-height: 42px;
-color: #2b2b2b;
-font-weight: 700;
-font-family: "Montserrat";
-text-align: center;
+  font-size: 25px;
+  letter-spacing: 0px;
+  line-height: 42px;
+  color: #2b2b2b;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-align: center;
+}
+.productos-rose {
+  background-color: #fce1da;
+  height: 516px;
+}
+
+.product-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 82%;
+  text-align: center;
+  margin: auto;
+}
+
+.productos .banners {
+  text-align: center;
+}
+
+.productos .banners img {
+  width: 1300px;
+  height: 870px;
+}
+
+.productos .white-background {
+  height: 770px;
+}
+
+.productos .description-chocolate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sucursales .sucursal {
+  display: flex;
+  flex-direction: column;
+}
+
+.sucursales .sucursal-list {
+  max-width: 1320px;
+  display: flex;
+  margin-left: 300px;
 }
