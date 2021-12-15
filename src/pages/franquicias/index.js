@@ -15,29 +15,31 @@ export default function Invoices() {
         </p>
       </div>
       <div className="contact-us-form">
+        <div className="contact-us-center">
         <div className="form-item">
-          <label>Nombre y apellido</label>
-          <input />
+          <label className="form-label">Nombre y apellido</label>
+          <input className="contact-us-imput"/>
         </div>
         <div className="form-item">
-          <label>Correo electrónico</label>
-          <input />
+          <label className="form-label">Correo electrónico</label>
+          <input className="contact-us-imput"/>
         </div>
         <div className="form-item">
-          <label>Teléfono de contacto</label>
-          <input />
+          <label className="form-label">Teléfono de contacto</label>
+          <input className="contact-us-imput"/>
         </div>
         <div className="form-item">
-          <label>Zona de interés para la franquicia</label>
-          <input />
+          <label className="form-label">Zona de interés para la franquicia</label>
+          <input className="contact-us-imput"/>
         </div>
         <div className="form-item">
-          <label>Dejanos tu mensaje</label>
-          <textarea></textarea>
+          <label className="form-label">Dejanos tu mensaje</label>
+          <textarea className="contact-us-area"></textarea>
         </div>
         <div className="form-footer">
           <div class="g-recaptcha" data-sitekey="6LdbW6AdAAAAADjDpOuG6ZpUh6j1-fSL2N8N37De"></div>
-          <button type="submit">Enviar</button>
+          <button type="submit" className="footer-submit">Enviar</button>
+        </div>
         </div>
       </div>
     </div>

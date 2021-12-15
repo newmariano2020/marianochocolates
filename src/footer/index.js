@@ -7,16 +7,16 @@ const Footer = () => {
         </div>
         <div className="text-left-footer">
           <span className="title">La Pinocha Chocolates</span>
-          <span className="bajada-de-linea">Nacimos en el amor. Crecimos en el bosque</span>
+          <span className="bajada-de-linea">Nacimos en el mar. Crecimos en el bosque</span>
         </div>
       </div>
       <div className="right-footer">
         <div className="right-footer-text">
           <div className="contact">
-            <span>Escribinos!</span>
+            <span className="contact-us-font">Escribinos!</span>
           </div>
           <div className="footer-message">
-            <span>Estamos para ayudarte</span>
+            <span className="footer-message-font">Estamos para ayudarte</span>
           </div>
           <span className="contact-em">info@lapinochachocolates.com</span>
         </div>
