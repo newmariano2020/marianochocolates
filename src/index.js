@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-slideshow-image/dist/styles.css'
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -13,7 +14,7 @@ import Header from './header';
 import Footer from './footer';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter forceRefresh>
     <Header />
     <Routes>
       <Route path="/" element={<Home />} />

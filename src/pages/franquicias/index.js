@@ -37,7 +37,7 @@ export default function Invoices() {
           <textarea className="contact-us-area"></textarea>
         </div>
         <div className="form-footer">
-          <div class="g-recaptcha" data-sitekey="6LdbW6AdAAAAADjDpOuG6ZpUh6j1-fSL2N8N37De"></div>
+          <div className="g-recaptcha" data-sitekey="6LdbW6AdAAAAADjDpOuG6ZpUh6j1-fSL2N8N37De"></div>
           <button type="submit" className="footer-submit">Enviar</button>
         </div>
         </div>

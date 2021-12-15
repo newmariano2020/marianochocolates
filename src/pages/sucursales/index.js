@@ -98,7 +98,7 @@ const Sucursales = () => {
       <div className="list-zones">
         {sucursales.map((sucursalZone) => {
           return (
-            <div style={{ "background-color": sucursalZone.backgroundColor }}>
+            <div style={{ backgroundColor: sucursalZone.backgroundColor }}>
               <span className="sucursal-zone">{sucursalZone.zone}</span>
               <div className="sucursal-list">
                 {sucursalZone.sucursales.map((sucursal) => (

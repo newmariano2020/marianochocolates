@@ -2,6 +2,14 @@
   font-family: "monserrat-regular";
   src: url("fonts/monserrat/Montserrat-Regular.ttf");
 }
+@font-face {
+  font-family: "monserrat-bold";
+  src: url("fonts/monserrat/Montserrat-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "monserrat-regular-semibold";
+  src: url("fonts/monserrat/Montserrat-SemiBold.ttf");
+}
 
 body {
   margin: 0;
@@ -44,10 +52,11 @@ body {
 ul {
   list-style: none;
 }
-.color-link {
+.link-header {
   color: white;
   margin: 5px;
   text-decoration: none;
+  font-family: "monserrat-regular-semibold";
 }
 
 a:hover {
@@ -313,6 +322,7 @@ a:hover {
 
 .bold {
   font-weight: bold;
+  font-family: "monserrat-bold";
 }
 
 .conocenos .text-section,
@@ -421,4 +431,25 @@ a:hover {
   max-width: 1320px;
   display: flex;
   margin-left: 300px;
+}
+
+.banner-home {
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+  color: white;
+}
+
+.middle-banner-home {
+  margin: auto;
+}
+
+.contact-em {
+  text-decoration: none;
+  color: white;
+}
+
+.carrousel-arrow {
+  width: 30px !important;
+  height: 30px !important;
 }
