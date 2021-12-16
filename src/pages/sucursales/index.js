@@ -7,38 +7,38 @@ const sucursales = [
       {
         location: "Palermo",
         address: "Av. Santa fe 3476",
-        openAt: "Abierto todos los días",
+        openAt: "Lu a Sá 9 a 19:30 hs",
         whatsapp: "11 3941 1647",
       },
       {
         location: "Palermo Soho",
         address: "Honduras 4866",
-        openAt: "Abierto todos los días",
+        openAt: "Lu a Sá 9 a 19:30 hs",
         whatsapp: "11 2358 8765",
       },
       {
         location: "Belgrano",
         address: "Echeverria 2383",
-        openAt: "Abierto todos los días",
+        openAt: "Lu a Sá 9 a 19:30 hs",
         whatsapp: "11 2401 7412",
       },
       {
-        location: "Palermo",
-        address: "Av. Santa fe 3476",
-        openAt: "Abierto todos los días",
-        whatsapp: "11 3941 1647",
+        location: "Colegiales",
+        address: "Av. Cabildo 1306",
+        openAt: "Lu a Sá 9 a 19:30 hs",
+        whatsapp: "112 250 2432",
       },
       {
-        location: "Palermo Soho",
-        address: "Honduras 4866",
-        openAt: "Abierto todos los días",
-        whatsapp: "11 2358 8765",
+        location: "Caballito",
+        address: "Río de Janeiro 5",
+        openAt: "Lu a Sá 9 a 19:30 hs",
+        whatsapp: "11 2389 8626",
       },
       {
-        location: "Belgrano",
-        address: "Echeverria 2383",
-        openAt: "Abierto todos los días",
-        whatsapp: "11 2401 7412",
+        location: "Villa Urquiza",
+        address: "Triunvirato 4531",
+        openAt: "Lu a Sá 9 a 19:30 hs",
+        whatsapp: "113 702 8827",
       },
     ],
   },
@@ -47,34 +47,34 @@ const sucursales = [
     backgroundColor: '#E9E9E9',
     sucursales: [
       {
-        location: "Palermo",
-        address: "Av. Santa fe 3476",
-        openAt: "Abierto todos los días",
-        whatsapp: "11 3941 1647",
+        location: "Olivos",
+        address: "Ugarte 1520",
+        openAt: "Lu a Sá 9 a 19:30 hs",
+        whatsapp: "115 181 6880",
       },
       {
-        location: "Palermo Soho",
-        address: "Honduras 4866",
-        openAt: "Abierto todos los días",
-        whatsapp: "11 2358 8765",
+        location: "Lomas de Zamora",
+        address: "Av. Antártida Argentina 112",
+        openAt: "Lu a Sá 9 a 19:30 hs",
+        whatsapp: "116 192 9908",
       },
       {
-        location: "Belgrano",
-        address: "Echeverria 2383",
-        openAt: "Abierto todos los días",
-        whatsapp: "11 2401 7412",
+        location: "Canning",
+        address: "Shopping Plaza Canning Ezeiza, Local 108: Ruta 52 km 12",
+        openAt: "Lu a Sá 9 a 19:30 hs",
+        whatsapp: "112 654 9615",
       },
       {
-        location: "Palermo",
-        address: "Av. Santa fe 3476",
-        openAt: "Abierto todos los días",
-        whatsapp: "11 3941 1647",
+        location: "La Plata",
+        address: "Calle 5, Nro. 937",
+        openAt: "Lu a Sá 9 a 19:30 hs",
+        whatsapp: "0221 675 2544",
       },
       {
-        location: "Palermo Soho",
-        address: "Honduras 4866",
-        openAt: "Abierto todos los días",
-        whatsapp: "11 2358 8765",
+        location: "San Isidro",
+        address: "9 de Julio 380",
+        openAt: "Lu a Sá 9 a 19:30 hs",
+        whatsapp: "11 3086 2395",
       },
       {
         location: "Belgrano",
@@ -99,7 +99,9 @@ const Sucursales = () => {
         {sucursales.map((sucursalZone) => {
           return (
             <div style={{ backgroundColor: sucursalZone.backgroundColor }}>
+              <div className="sucursal-zone-box">
               <span className="sucursal-zone">{sucursalZone.zone}</span>
+              </div>
               <div className="sucursal-list">
                 {sucursalZone.sucursales.map((sucursal) => (
                   <Sucursal

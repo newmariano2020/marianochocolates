@@ -430,7 +430,8 @@ a:hover {
 .sucursales .sucursal-list {
   max-width: 1320px;
   display: flex;
-  margin-left: 300px;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .banner-home {
@@ -452,4 +453,32 @@ a:hover {
 .carrousel-arrow {
   width: 30px !important;
   height: 30px !important;
+}
+.sucursal-zone-box {
+  display: flex;
+}
+
+.sucursal-zone {
+  font-size: 50px;
+  letter-spacing: -1px;
+  line-height: 160px;
+  font-weight: 300;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.sucursal-list {
+  margin-left: 12%;
+  margin-right: -5%;
+}
+.sucursal {
+  width: 26%;
+  margin-bottom: 62px;
+}
+.sucursal-title {
+  font-size: 30px;
+  letter-spacing: 0px;
+  line-height: 50px;
+  font-weight: 700;
+  font-family: "Montserrat";
 }
