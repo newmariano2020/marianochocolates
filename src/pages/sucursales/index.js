@@ -99,6 +99,7 @@ const sucursales = [
         openAt: "Abierto todos los días",
         whatsapp: "351 786 1014",
       },
+      {},
     ],
   },
 ];
