@@ -380,14 +380,20 @@ a:hover {
   background-color: #ef8f7a;
 }
 .form-label {
-  font-size: 25px;
+  font-size: 23px;
   letter-spacing: 0px;
   line-height: 42px;
   color: #2b2b2b;
-  font-weight: 700;
-  font-family: "Montserrat";
+  font-family: "monserrat-regular";
   text-align: center;
+  margin-top: 45px;
+  margin-bottom: 35px;
 }
+
+.form-item.first {
+  margin-top: 0px !important;
+}
+
 .productos-rose {
   background-color: #fce1da;
   height: 516px;
@@ -404,11 +410,6 @@ a:hover {
 
 .productos .banners {
   text-align: center;
-}
-
-.productos .banners img {
-  width: 1300px;
-  height: 870px;
 }
 
 .productos .white-background {
@@ -492,4 +493,7 @@ a:hover {
   line-height: 50px;
   font-weight: 700;
   font-family: "Montserrat";
+}
+.container-fluid.full-width {
+  padding: 0 !important;
 }

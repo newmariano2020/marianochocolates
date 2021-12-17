@@ -16,7 +16,7 @@ export default function Invoices() {
       </div>
       <div className="contact-us-form">
         <div className="contact-us-center">
-        <div className="form-item">
+        <div className="form-item first">
           <label className="form-label">Nombre y apellido</label>
           <input className="contact-us-imput"/>
         </div>

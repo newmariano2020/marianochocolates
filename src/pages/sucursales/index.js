@@ -84,6 +84,23 @@ const sucursales = [
       },
     ],
   },
+  {
+    zone: "Interior del País",
+    sucursales: [
+      {
+        location: "Santa Fé Capital",
+        address: "Peatonal San Martín 3031",
+        openAt: "Abierto todos los días",
+        whatsapp: "342 4065 221",
+      },
+      {
+        location: "Córdoba Capital",
+        address: "Obispo Oro 237",
+        openAt: "Abierto todos los días",
+        whatsapp: "351 786 1014",
+      },
+    ],
+  },
 ];
 
 const Sucursales = () => {
@@ -115,119 +132,6 @@ const Sucursales = () => {
             </div>
           );
         })}
-      </div>
-      <div class="container">
-        <div class="row justify-content-around">
-          <div class="col-3 col-lg-3 col-xl-3 col-xxl-3">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Palermo</h5>
-                <p class="card-text">Av. Santa fe 3476   </p>
-                <p class="card-text"> Lu a Sá 9 a 19:30 hs  </p>
-                <p class="card-text"> 11 3941 1647  </p>
-
-              </div>
-            </div>
-
-          </div>
-          <div class="col-3 col-lg-3 col-xl-3 col-xxl-3 ">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Palermo Soho</h5>
-                <p class="card-text">Honduras 4866</p>
-                <p class="card-text"> Lu a Sá 9 a 19:30 hs  </p>
-                <p class="card-text"> 11 2358 8765</p>
-              </div>
-            </div>
-
-          </div>
-          <div class="col-3 col-lg-3 col-xl-3 col-xxl-3">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Belgrano</h5>
-                <p class="card-text">Echeverria 2383</p>
-                <p class="card-text"> Lu a Sá 9 a 19:30 hs  </p>
-                <p class="card-text">11 2401 7412</p>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-        <div class="row justify-content-around">
-          <div class="col-3 col-lg-3 col-xl-3 col-xxl-3">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Colegiales</h5>
-                <p class="card-text">Av. Cabildo 1306 </p>
-                <p class="card-text"> Lu a Sá 9 a 19:30 hs  </p>
-                <p class="card-text"> 112 250 2432 </p>
-
-              </div>
-            </div>
-
-          </div>
-          <div class="col-3 col-lg-3 col-xl-3 col-xxl-3 ">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Caballito</h5>
-                <p class="card-text">Río de Janeiro 5</p>
-                <p class="card-text"> Lu a Sá 9 a 19:30 hs  </p>
-                <p class="card-text">11 2389 8626</p>
-              </div>
-            </div>
-
-          </div>
-          <div class="col-3 col-lg-3 col-xl-3 col-xxl-3">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Villa Urquiza</h5>
-                <p class="card-text">Triunvirato 4531</p>
-                <p class="card-text"> Lu a Sá 9 a 19:30 hs  </p>
-                <p class="card-text">11 2401 7412</p>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-        <div class="row justify-content-around">
-          <div class="col-3 col-lg-3 col-xl-3 col-xxl-3">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Palermo</h5>
-                <p class="card-text">Av. Santa fe 3476   </p>
-                <p class="card-text"> Lu a Sá 9 a 19:30 hs  </p>
-                <p class="card-text"> 11 3941 1647  </p>
-
-              </div>
-            </div>
-
-          </div>
-          <div class="col-3 col-lg-3 col-xl-3 col-xxl-3 ">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Palermo Soho</h5>
-                <p class="card-text">Honduras 4866</p>
-                <p class="card-text"> Lu a Sá 9 a 19:30 hs  </p>
-                <p class="card-text"> 11 2358 8765</p>
-              </div>
-            </div>
-
-          </div>
-          <div class="col-3 col-lg-3 col-xl-3 col-xxl-3">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Belgrano</h5>
-                <p class="card-text">Echeverria 2383</p>
-                <p class="card-text"> Lu a Sá 9 a 19:30 hs  </p>
-                <p class="card-text">11 2401 7412</p>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
       </div>
     </div>
   );

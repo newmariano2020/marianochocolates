@@ -13,24 +13,24 @@ const Productos = () => {
       </div>
       <div>
         <div className="productos-rose">
-          <div class="container">
-            <div class="row row-justify-content-around">
-              <div class = "col-1 col-lg-1 col-xl-1 col-xxl-1" class="product-list"> 
+          <div className="container">
+            <div className="row row-justify-content-around">
+              <div className="product-list col-1 col-lg-1 col-xl-1 col-xxl-1">
                 <a href="#chocolates">chocolates</a>
               </div>
-              <div class = "col-1 col-lg-1 col-xl-1 col-xxl-1" class="product-list"> 
+              <div className="product-list col-1 col-lg-1 col-xl-1 col-xxl-1">
                 <a href="#alfajores">alfajores</a>
               </div>
-              <div class = "col-1 col-lg-1 col-xl-1 col-xxl-1" class="product-list"> 
+              <div className="product-list col-1 col-lg-1 col-xl-1 col-xxl-1">
                 <a href="#confituras">confituras</a>
-                </div>
-                <div class = "col-1 col-lg-1 col-xl-1 col-xxl-1" class="product-list"> 
-                <a href="#submarinos">submarinos</a>
-                </div>
-                <a href="#tabletas">tabletas</a>
               </div>
+              <div className="product-list col-1 col-lg-1 col-xl-1 col-xxl-1">
+                <a href="#submarinos">submarinos</a>
+              </div>
+              <a href="#tabletas">tabletas</a>
             </div>
-          
+          </div>
+
           <div className="banners">
             <Slide
               easing="ease"
@@ -39,20 +39,30 @@ const Productos = () => {
                 console.log({ oldValue, newValue })
               }
               prevArrow={
-                <img
+                <div
                   className="carrousel-arrow"
-                  with="10px"
                   alt=""
-                  src={require("../../img/left-carrousel-arrow.png").default}
-                ></img>
+                  style={{
+                    backgroundImage: `url(${
+                      require("../../img/left-carrousel-arrow.png").default
+                    })`,
+                    marginRight: "-30px",
+                    backgroundSize: "cover",
+                  }}
+                ></div>
               }
               nextArrow={
-                <img
+                <div
                   className="carrousel-arrow"
-                  with="10px"
                   alt=""
-                  src={require("../../img/right-carrousel-arrow.png").default}
-                ></img>
+                  style={{
+                    backgroundImage: `url(${
+                      require("../../img/right-carrousel-arrow.png").default
+                    })`,
+                    marginLeft: "-30px",
+                    backgroundSize: "cover",
+                  }}
+                ></div>
               }
             >
               <img
