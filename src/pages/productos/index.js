@@ -13,13 +13,24 @@ const Productos = () => {
       </div>
       <div>
         <div className="productos-rose">
-          <div className="product-list">
-            <a href="#chocolates">chocolates</a>
-            <a href="#alfajores">alfajores</a>
-            <a href="#confituras">confituras</a>
-            <a href="#submarinos">submarinos</a>
-            <a href="#tabletas">tabletas</a>
-          </div>
+          <div class="container">
+            <div class="row row-justify-content-around">
+              <div class = "col-1 col-lg-1 col-xl-1 col-xxl-1" class="product-list"> 
+                <a href="#chocolates">chocolates</a>
+              </div>
+              <div class = "col-1 col-lg-1 col-xl-1 col-xxl-1" class="product-list"> 
+                <a href="#alfajores">alfajores</a>
+              </div>
+              <div class = "col-1 col-lg-1 col-xl-1 col-xxl-1" class="product-list"> 
+                <a href="#confituras">confituras</a>
+                </div>
+                <div class = "col-1 col-lg-1 col-xl-1 col-xxl-1" class="product-list"> 
+                <a href="#submarinos">submarinos</a>
+                </div>
+                <a href="#tabletas">tabletas</a>
+              </div>
+            </div>
+          
           <div className="banners">
             <Slide
               easing="ease"
