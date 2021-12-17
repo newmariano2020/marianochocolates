@@ -497,3 +497,9 @@ a:hover {
 .container-fluid.full-width {
   padding: 0 !important;
 }
+
+.react-slideshow-container {
+  max-width: 1304px;
+  text-align: center;
+}
+

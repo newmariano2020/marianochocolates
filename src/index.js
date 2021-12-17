@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "react-slideshow-image/dist/styles.css";
+import "./index.mobile.css";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
