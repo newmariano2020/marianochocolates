@@ -124,7 +124,6 @@ a:hover {
   background-image: url("img/estamos-cerca-home.png");
   background-size: cover;
   background-repeat: no-repeat;
-  margin-left: 13%;
 }
 
 .destacado-2 {
@@ -137,7 +136,6 @@ a:hover {
   background-image: url("img/somos-la-pinocha-home.png");
   background-size: cover;
   background-repeat: no-repeat;
-  margin-right: 13%;
 }
 
 .fondo-medio-front {
@@ -154,12 +152,10 @@ a:hover {
   color: white;
   display: flex;
   flex-direction: column;
-  height: 194px;
 }
 
 .upper-section {
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
 }
 
@@ -181,10 +177,6 @@ a:hover {
   color: #ffffff;
   font-weight: 600;
   font-family: "Montserrat";
-}
-
-.footer .upper-section {
-  height: 145px;
 }
 
 .footer .rights {
@@ -225,8 +217,10 @@ a:hover {
   padding-top: 7px;
 }
 .logo-footer {
-  align-self: center;
-  margin-left: 160px;
+    width: 50px;
+    margin-left: 25px;
+    margin-top: 15px;
+    position: absolute;
 }
 .text-left-footer {
   align-self: center;
@@ -243,14 +237,12 @@ a:hover {
 }
 .right-footer {
   display: flex;
-  flex-direction: column;
-  width: 50%;
+  flex-direction: row;
   font-size: 10px;
   align-self: center;
 }
 .right-footer-text {
   flex-wrap: wrap;
-  margin-left: 345px;
   font-size: 14px;
   letter-spacing: 0px;
   line-height: 19px;
@@ -271,7 +263,6 @@ a:hover {
   align-self: center;
 
   width: 75px;
-  margin-right: 145px;
 }
 .follow-text {
   font-size: 14px;
@@ -501,5 +492,9 @@ a:hover {
 .react-slideshow-container {
   max-width: 1304px;
   text-align: center;
+}
+
+.row-destacados {
+  justify-content: center;
 }
 
