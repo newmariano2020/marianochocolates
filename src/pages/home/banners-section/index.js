@@ -2,6 +2,17 @@ import React from "react";
 import { Slide } from "react-slideshow-image";
 
 const Banners = () => {
+  const MiddleBannerHome = ({ upperText, middleText, callToActionText, href }) => (
+    <div className="middle-banner-home">
+      <div className="upper">{upperText}</div>
+      <div className="middle">{middleText}</div>
+      <a href={href}>
+        <div className="call-to-action">
+          <span>{callToActionText}</span>
+        </div>
+      </a>
+    </div>
+  );
   return (
     <div
       id="carouselExampleControls"
@@ -20,9 +31,12 @@ const Banners = () => {
               })`,
             }}
           >
-            <div className="middle-banner-home">
-              Mucho mas que una tentacion
-            </div>
+            <MiddleBannerHome
+              upperText="Bienvenidos #Chocolovers"
+              middleText="Mucho mas que una tentacion"
+              callToActionText="COMPRÁ ONLINE"
+              href="/productos"
+            ></MiddleBannerHome>
           </div>
           <div
             className="banner-home"
@@ -34,9 +48,12 @@ const Banners = () => {
               })`,
             }}
           >
-            <div className="middle-banner-home">
-              Amamos lo que hacemos
-            </div>
+            <MiddleBannerHome
+              upperText="Experiencia en Chocolates"
+              middleText="Amamos lo que hacemos"
+              callToActionText="VER PRODUCTOS"
+              href="/franquicia"
+            ></MiddleBannerHome>
           </div>
           <div
             className="banner-home"
@@ -48,9 +65,12 @@ const Banners = () => {
               })`,
             }}
           >
-            <div className="middle-banner-home">
-              Somos el regalo perfecto
-            </div>
+            <MiddleBannerHome
+              upperText="Pensá en chocolate"
+              middleText="Somos el regalo perfecto"
+              callToActionText="SORPRENDÉ"
+              href="/sucursales"
+            ></MiddleBannerHome>
           </div>
           <div
             className="banner-home"
@@ -62,9 +82,12 @@ const Banners = () => {
               })`,
             }}
           >
-            <div className="middle-banner-home">
-              Descubri donde estamos
-            </div>
+            <MiddleBannerHome
+              upperText="Visitanos siempre!"
+              middleText="Descubre donde estamos"
+              callToActionText="SUCURSALES"
+              href="/sucursales"
+            ></MiddleBannerHome>
           </div>
         </Slide>
       </div>

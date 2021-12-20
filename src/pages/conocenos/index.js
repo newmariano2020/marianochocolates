@@ -2,7 +2,7 @@ export default function Invoices() {
   return (
     <div className="conocenos">
       <div className="top-section">
-        <span className="familia-la-pinocha">La Pinocha Chocolates</span>
+        <span className="familia-la-pinocha">Familia La Pinocha</span>
         <span className="conoce-nuestra-historia-1">
           Más de 25 años dedicados a la elaboración de chocolate.
         </span>

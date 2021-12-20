@@ -1,4 +1,13 @@
 @media screen and (max-device-width: 480px) {
+
+  .conocenos .text-section .bold {
+    font-size: 19px !important;
+    font-family: "monserrat-bold" !important;
+  }
+  
+  .conocenos .text-section div {
+    font-size: 17px !important;
+  }
   .menu-mobile div.par {
     background-color: #f59f88;
   }
@@ -100,6 +109,15 @@
 @media screen and (min-device-width: 480px) and (max-device-width: 767px) {
   .menu-mobile {
     text-align: center;
+  }
+
+  .conocenos .text-section .bold {
+    font-size: 19px !important;
+    font-family: "monserrat-bold" !important;
+  }
+  
+  .conocenos .text-section div {
+    font-size: 17px !important;
   }
 
   .menu-mobile a {

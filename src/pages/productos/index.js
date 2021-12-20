@@ -129,7 +129,7 @@ const Productos = () => {
                         require("../../img/left-carrousel-arrow.png").default
                       })`,
                       backgroundSize: "cover",
-                      left: 15,
+                      left: 35,
                       marginRight: 35,
                       ...arrowStyles,
                     }}
@@ -148,7 +148,7 @@ const Productos = () => {
                       })`,
                       backgroundSize: "cover",
                       ...arrowStyles,
-                      right: 15,
+                      right: 35,
                     }}
                   ></div>
                 )

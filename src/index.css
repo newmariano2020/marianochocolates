@@ -207,9 +207,12 @@ a:hover {
   align-content: center;
 }
 
-.destacado-middle-section .call-to-action {
-  border: 1.5px solid #ffffff;
-  border-radius: 15px;
+.call-to-action {
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .destacado-middle-section {
@@ -222,16 +225,25 @@ a:hover {
 }
 .message {
   color: white;
-  font-size: 15px;
-  font-weight: bold;
-  margin-bottom: 2%;
+  font-size: 23px;
+  font-family: "monserrat-bold";
+  margin-bottom: 6%;
 }
 .call-to-action {
   font-size: 10px;
   margin: auto;
-  width: 10em;
-  height: 30px;
-  padding-top: 7px;
+  width: 177px;
+  height: 40px;
+}
+
+.destacado-middle-section .call-to-action span {
+  font-size: 13px;
+  font-family: "monserrat-semi-bold";
+}
+.call-to-action span {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  color: white;
 }
 .logo-footer {
     width: 50px;
@@ -305,7 +317,7 @@ a:hover {
   text-align: center;
 }
 
-.sucursales .top-section {
+.sucursales .top-section, .franquicias .top-section {
   height: 170px;
 }
 
@@ -314,6 +326,7 @@ a:hover {
   font-family: "monserrat-light";
   line-height: normal;
   margin-bottom: 10px;
+  margin-top: -60px;
 }
 
 .top-section .conoce-nuestra-historia-1,
@@ -329,7 +342,7 @@ a:hover {
 }
 
 .conocenos .logo-conocenos {
-  margin-top: -107px;
+  margin-top: -120px;
   height: 214px;
   text-align: center;
 }
@@ -484,6 +497,7 @@ a:hover {
 
 .sucursal-zone {
   font-size: 50px;
+  font-family: "monserrat-light";
   letter-spacing: -1px;
   margin-top: 40px !important;
   margin-bottom: 40px !important;
@@ -523,7 +537,6 @@ a:hover {
 }
 
 .react-slideshow-container {
-  max-width: 1304px;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -623,4 +636,36 @@ a:hover {
 .row.rights span {
   font-size: 12px;
   font-family: "monserrat-regular";
+}
+
+.sucursal-open-at {
+  max-width: 319px;
+}
+
+.sucursal-open-at span, .sucursal-whatsapp span {
+  margin-left: 5px;
+}
+
+.sucursal-open-at img, .sucursal-whatsapp img {
+  width: 25px;
+}
+
+.sucursales .top-section .familia-la-pinocha, .franquicias .top-section .familia-la-pinocha {
+  margin-top: 0px !important;
+}
+
+.middle-banner-home .upper {
+  font-family: "monserrat-bold";
+  font-size: 13px;
+}
+
+.middle-banner-home .middle {
+  font-family: "monserrat-light";
+  font-size: 50px;
+  max-width: 410px;
+}
+
+.middle-banner-home .call-to-action {
+  font-family: "monserrat-semi-bold";
+  font-size: 13px;
 }

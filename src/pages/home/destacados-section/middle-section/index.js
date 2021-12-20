@@ -1,7 +1,11 @@
-const MiddleSection = ({ message, callToActionText }) => {
+const MiddleSection = ({ message, callToActionText, href }) => {
   return <div className="destacado-middle-section">
     <div className="message">{message}</div>
-    <div className="call-to-action">{callToActionText}</div>
+    <a href={href}>
+      <div className="call-to-action">
+        <span>{callToActionText}</span>
+      </div>
+    </a>
   </div>
 };
 
