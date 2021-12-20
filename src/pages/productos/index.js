@@ -116,6 +116,7 @@ const Productos = () => {
               showIndicators={false}
               showThumbs={false}
               infiniteLoop={true}
+              showStatus={false}
               onChange={(newValue) => setSelectedImage(newValue)}
               renderArrowPrev={(onClickHandler, hasPrev, label) =>
                 hasPrev && (

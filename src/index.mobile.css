@@ -102,6 +102,10 @@
     text-align: center;
   }
 
+  .menu-mobile a {
+    color: white !important;
+  }
+
   .menu-mobile div {
     height: 60px !important;
     background-color: #f18f78;
@@ -192,6 +196,9 @@
   }
 }
 @media screen and (min-device-width: 768px) {
+  .menu-mobile {
+    display: none !important;
+  }
   .right-footer-text {
     margin-left: 50%;
   }
