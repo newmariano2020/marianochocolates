@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <div className="container footer">
       <div className="row upper-sections d-block d-sm-none">
-        <div classname="col-2">
+        <div className="col-2">
           {" "}
           {/** Logo */}
           <div className="logo-footer">
@@ -128,7 +128,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="row rights">
-        Todos los derechos reservados 2021 | Diseño por woopi.com.ar
+        <span>Todos los derechos reservados 2021 | Diseño por woopi.com.ar</span>
       </div>
     </div>
   );
