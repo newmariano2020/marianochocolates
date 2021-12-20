@@ -1,7 +1,45 @@
-import React from "react";
-import { Slide } from "react-slideshow-image";
+import React, { useState } from "react";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
+
+const chocolates = [
+  {
+    title: "chocolates",
+    description: 'Descripcion de "chocolates"',
+  },
+  {
+    title: "alfajores",
+    description: 'Descripcion de "alfajores"',
+  },
+  {
+    title: "confituras",
+    description: 'Descripcion de "confituras"',
+  },
+  {
+    title: "submarinos",
+    description: 'Descripcion de "submarinos"',
+  },
+  {
+    title: "tabletas",
+    description: 'Descripcion de "tabletas"',
+  },
+];
+
+const arrowStyles = {
+  position: "absolute",
+  zIndex: 2,
+  top: "calc(50% - 15px)",
+  width: 30,
+  height: 30,
+  cursor: "pointer",
+};
 
 const Productos = () => {
+  const [selectedImage, setSelectedImage] = useState(0);
+  const goto = (imageToShow) => {
+    setSelectedImage(imageToShow);
+  };
+
   return (
     <div className="productos">
       <div className="top-section">
@@ -13,56 +51,106 @@ const Productos = () => {
       </div>
       <div>
         <div className="productos-rose">
-          <div className="container">
-            <div className="row row-justify-content-around">
-              <div className="product-list col-1 col-lg-1 col-xl-1 col-xxl-1">
-                <a href="#chocolates">chocolates</a>
-              </div>
-              <div className="product-list col-1 col-lg-1 col-xl-1 col-xxl-1">
-                <a href="#alfajores">alfajores</a>
-              </div>
-              <div className="product-list col-1 col-lg-1 col-xl-1 col-xxl-1">
-                <a href="#confituras">confituras</a>
-              </div>
-              <div className="product-list col-1 col-lg-1 col-xl-1 col-xxl-1">
-                <a href="#submarinos">submarinos</a>
-              </div>
-              <a href="#tabletas">tabletas</a>
+          <div className="product-list">
+            <div id="chocolates">
+              <a
+                href="#nothing" // by pass href validation
+                style={{
+                  textDecoration: selectedImage === 0 ? "underline" : "none",
+                }}
+                onClick={() => goto(0)}
+              >
+                chocolates
+              </a>
+            </div>
+            <div id="alfajores">
+              <a
+                href="#nothing" // by pass href validation
+                style={{
+                  textDecoration: selectedImage === 1 ? "underline" : "none",
+                }}
+                onClick={() => goto(1)}
+              >
+                alfajores
+              </a>
+            </div>
+            <div id="confituras">
+              <a
+                href="#nothing" // by pass href validation
+                style={{
+                  textDecoration: selectedImage === 2 ? "underline" : "none",
+                }}
+                onClick={() => goto(2)}
+              >
+                confituras
+              </a>
+            </div>
+            <div id="submarinos">
+              <a
+                href="#nothing" // by pass href validation
+                style={{
+                  textDecoration: selectedImage === 3 ? "underline" : "none",
+                }}
+                onClick={() => goto(3)}
+              >
+                submarinos
+              </a>
+            </div>
+            <div id="tabletas">
+              <a
+                href="#nothing" // by pass href validation
+                style={{
+                  textDecoration: selectedImage === 4 ? "underline" : "none",
+                }}
+                onClick={() => goto(4)}
+              >
+                tabletas
+              </a>
             </div>
           </div>
 
           <div className="banners">
-            <Slide
-              easing="ease"
-              autoplay={false}
-              onChange={(oldValue, newValue) =>
-                console.log({ oldValue, newValue })
+            <Carousel
+              selectedItem={selectedImage}
+              width="70%"
+              showIndicators={false}
+              showThumbs={false}
+              infiniteLoop={true}
+              onChange={(newValue) => setSelectedImage(newValue)}
+              renderArrowPrev={(onClickHandler, hasPrev, label) =>
+                hasPrev && (
+                  <div
+                    onClick={onClickHandler}
+                    className="carrousel-arrow"
+                    alt=""
+                    style={{
+                      backgroundImage: `url(${
+                        require("../../img/left-carrousel-arrow.png").default
+                      })`,
+                      backgroundSize: "cover",
+                      left: 15,
+                      marginRight: 35,
+                      ...arrowStyles,
+                    }}
+                  ></div>
+                )
               }
-              prevArrow={
-                <div
-                  className="carrousel-arrow"
-                  alt=""
-                  style={{
-                    backgroundImage: `url(${
-                      require("../../img/left-carrousel-arrow.png").default
-                    })`,
-                    marginRight: "-30px",
-                    backgroundSize: "cover",
-                  }}
-                ></div>
-              }
-              nextArrow={
-                <div
-                  className="carrousel-arrow"
-                  alt=""
-                  style={{
-                    backgroundImage: `url(${
-                      require("../../img/right-carrousel-arrow.png").default
-                    })`,
-                    marginLeft: "-30px",
-                    backgroundSize: "cover",
-                  }}
-                ></div>
+              renderArrowNext={(onClickHandler, hasNext, label) =>
+                hasNext && (
+                  <div
+                    onClick={onClickHandler}
+                    className="carrousel-arrow"
+                    alt=""
+                    style={{
+                      backgroundImage: `url(${
+                        require("../../img/right-carrousel-arrow.png").default
+                      })`,
+                      backgroundSize: "cover",
+                      ...arrowStyles,
+                      right: 15,
+                    }}
+                  ></div>
+                )
               }
             >
               <img
@@ -95,17 +183,21 @@ const Productos = () => {
                 }
                 alt="tabletas"
               ></img>
-            </Slide>
-          </div>
-          <div className="description-chocolate">
-            <span className="choco-name">Nombre del Chocolate</span>
-            <span className="choco-description">
-              Sumar una descripción del producto
-            </span>
-            <button>¿Querés conocer más? Descubrilo acá</button>
+            </Carousel>
           </div>
         </div>
-        <div className="white-background"></div>
+        <div className="white-background">
+          <div className="description-chocolate">
+            <p className="choco-name">{chocolates[selectedImage].title}</p>
+            <p className="choco-description">
+              {" "}
+              {chocolates[selectedImage].description}
+            </p>
+            <button className="margin-queres-conocer footer-submit">
+              ¿Querés conocer más? Descubrilo acá
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -1,151 +1,289 @@
-
 @media screen and (max-device-width: 480px) {
-    .destacado {
-        margin-top: 10px !important;
-        margin-bottom: 10px !important;
-    }
-    .nav-menu {
-        visibility: hidden;
-    }
-    .logo {
-        justify-content: left;
-    }
-    .upper-section {
-        align-items: center; 
-    }
-    .right-footer-content {
-        box-sizing: border-box;
-        width: -1%;
-        padding-left: 22%;
-        font-size: 13px;
-        letter-spacing: 0px;
-        line-height: 19px;
-        color: #ffffff;
-        font-weight: 600;
-        font-family: "Montserrat";
-        justify-content: center;
-        flex-direction: column;
-        align-content: center;
+  .menu-mobile div.par {
+    background-color: #f59f88;
+  }
+  .header .nav-menu {
+    display: none;
+  }
+  .menu-mobile {
+    text-align: center;
+  }
 
-    }
-    .footer .rights {
-        margin-top: 45px;
-    }
-    .left-logos {
-        width: 86px;
-        height: 100px;
-        position: relative;
-        padding-right: 0;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        flex-direction: column;
-        align-content: center;
-    }
-    .right-footer-content_group-1 {
-        margin-top: 20px;
-    }
-    .right-footer-content_group-2 {
-        margin-top: 20px;
-    }
-    .contac-em {
-        margin-top: 20px;
-    }
-    .follow-us {
-        margin-top: 20px;
-    }
-    .footer-img {
-        margin-left: -65px;
-    }
-    .right-footer-content_title {
-        margin-right: 122px;
-    }
-    .right-footer-content_group-1 {
-        margin-top: 20px;
-        display: inline-flex;
-    }
-    
+  .menu-mobile div {
+    height: 60px !important;
+    background-color: #f18f78;
+    padding-top: 20px;
+    color: white;
+    font-family: "monserrat-bold";
+  }
+
+  .burger-menu {
+    margin-right: 10px !important;
+  }
+
+  .header {
+    min-height: 57px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+
+  .header .logo {
+    margin-left: 30px;
+  }
+
+  .destacado {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+  }
+  .nav-menu {
+    visibility: hidden;
+  }
+  .logo {
+    justify-content: left;
+  }
+  .upper-section {
+    align-items: center;
+  }
+  .right-footer-content {
+    box-sizing: border-box;
+    width: -1%;
+    padding-left: 22%;
+    font-size: 13px;
+    letter-spacing: 0px;
+    line-height: 19px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Montserrat";
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+  }
+  .footer .rights {
+    margin-top: 45px;
+  }
+  .left-logos {
+    width: 86px;
+    height: 100px;
+    position: relative;
+    padding-right: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+  }
+  .right-footer-content_group-1 {
+    margin-top: 20px;
+  }
+  .right-footer-content_group-2 {
+    margin-top: 20px;
+  }
+  .contac-em {
+    margin-top: 20px;
+  }
+  .follow-us {
+    margin-top: 20px;
+  }
+  .footer-img {
+    margin-left: -65px;
+  }
+  .right-footer-content_title {
+    margin-right: 122px;
+  }
+  .right-footer-content_group-1 {
+    margin-top: 20px;
+    display: inline-flex;
+  }
 }
 
-@media screen and (min-device-width: 480px) and (max-device-width:767px) {
-    .destacado {
-        margin-top: 10px !important;
-        margin-bottom: 10px !important;
-    }
-    .nav-menu {
-        visibility: hidden;
-    }
-    .logo {
-        justify-content: left;
-    }
-    .upper-section {
-        align-items: center; 
-    }
-    .right-footer-content {
-        box-sizing: border-box;
-        width: -1%;
-        padding-left: 22%;
-        font-size: 13px;
-        letter-spacing: 0px;
-        line-height: 19px;
-        color: #ffffff;
-        font-weight: 600;
-        font-family: "Montserrat";
+@media screen and (min-device-width: 480px) and (max-device-width: 767px) {
+  .menu-mobile {
+    text-align: center;
+  }
 
-    }
-    .footer .rights {
-        margin-top: 45px;
-    }
-    .left-logos {
-        width: 100%;
-        padding-left: 6%;
-        padding-right: 0;
-        position: absolute;
-        margin-top: -25%;
-    }
-    .right-footer-content_group-1 {
-        margin-top: 20px;
-        display: inline-flex;
-    }
-    .right-footer-content_group-2 {
-        margin-top: 20px;
-    }
-    .contac-em {
-        margin-top: 20px;
-    }
-    .follow-us {
-        margin-top: 20px;
-    }
-    .footer-img {
-        margin-left: -65px;
-    }
-    .right-footer-content_title {
-        margin-right: 10px;
-    }
-  
+  .menu-mobile div {
+    height: 60px !important;
+    background-color: #f18f78;
+    padding-top: 20px;
+    color: white;
+    font-family: "monserrat-bold";
+  }
+
+  .menu-mobile div.par {
+    background-color: #f59f88;
+  }
+
+  .burger-menu {
+    margin-right: 10px !important;
+  }
+
+  .header {
+    justify-content: space-between !important;
+  }
+
+  .header .nav-menu {
+    display: none;
+  }
+
+  .header {
+    min-height: 57px !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+  .header .logo {
+    margin-left: 30px;
+  }
+  .footer-right-sm {
+    margin-left: 0% !important;
+  }
+  .destacado {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+  }
+  .nav-menu {
+    visibility: hidden;
+  }
+  .logo {
+    justify-content: left;
+  }
+  .upper-section {
+    align-items: center;
+  }
+  .right-footer-content {
+    box-sizing: border-box;
+    width: -1%;
+    padding-left: 22%;
+    font-size: 13px;
+    letter-spacing: 0px;
+    line-height: 19px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Montserrat";
+  }
+  .footer .rights {
+    margin-top: 45px;
+  }
+  .left-logos {
+    width: 100%;
+    padding-left: 6%;
+    padding-right: 0;
+    position: absolute;
+    margin-top: -25%;
+  }
+  .right-footer-content_group-1 {
+    margin-top: 20px;
+    display: inline-flex;
+  }
+  .right-footer-content_group-2 {
+    margin-top: 20px;
+  }
+  .contac-em {
+    margin-top: 20px;
+  }
+  .follow-us {
+    margin-top: 20px;
+  }
+  .footer-img {
+    margin-left: -65px;
+  }
+  .right-footer-content_title {
+    margin-right: 10px;
+  }
 }
 @media screen and (min-device-width: 768px) {
-    .right-footer-text {
-        margin-left: 50%;
-    }
-    .right-footer-content {
-        display: inline-flex;
-        font-size: 14px;
-        letter-spacing: 0px;
-        line-height: 19px;
-        color: #ffffff;
-        font-weight: 600;
-        font-family: "Montserrat";
-    }
-    .logo-footer {
-        position: relative !important;
-    }
-    .right-footer-content_group-1 {
-        width: 50px;
-    }
-    .upper-sections {
-        justify-content: space-evenly; 
-        align-content: center;
-    }
-    
+  .right-footer-text {
+    margin-left: 50%;
+  }
+  .burger-menu {
+    display: none !important;
+  }
+  .right-footer-content {
+    display: inline-flex;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 19px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Montserrat";
+  }
+  .logo-footer {
+    position: relative !important;
+  }
+  .right-footer-content_group-1 {
+    width: 50px;
+  }
+  .upper-sections {
+    justify-content: space-evenly;
+    align-content: center;
+  }
+}
+@media only screen and (max-width: 481px) {
+  .sucursal-list {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 26% !important;
+    margin-right: 14% !important;
+  }
+
+  .sucursal {
+    width: 100% !important;
+    display: inline-block;
+    text-align: left;
+  }
+
+  .form-footer {
+    margin-left: -20px;
+  }
+
+  .familia-la-pinocha {
+    font-size: 30px !important;
+    margin-bottom: 10px;
+  }
+
+  .conoce-nuestra-historia-1,
+  .conoce-nuestra-historia-2 {
+    font-size: 14px !important;
+    font-weight: bold;
+  }
+
+  .productos .top-section {
+    height: 145px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .product-list {
+    width: 1000px !important;
+    overflow: scroll;
+    overflow-x: scroll;
+    scrollbar-width: none;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .contact-us-form {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .choco-name {
+    font-size: 24px !important;
+  }
+
+  .choco-description {
+    font-size: 18px !important;
+  }
+}
+
+.container,
+.container-sm {
+  max-width: 100% !important;
+}
+
+@media only screen and (max-width: 980px) {
+  .fix-padding-top-footer-top {
+    padding-top: 20px !important;
+  }
 }
