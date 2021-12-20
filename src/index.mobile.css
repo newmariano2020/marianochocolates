@@ -1,10 +1,14 @@
 @media screen and (max-device-width: 480px) {
 
+  .fondo-medio-back {
+    height: 173px;
+  }
+
   .conocenos .text-section .bold {
     font-size: 19px !important;
     font-family: "monserrat-bold" !important;
   }
-  
+
   .conocenos .text-section div {
     font-size: 17px !important;
   }
@@ -107,6 +111,7 @@
 }
 
 @media screen and (min-device-width: 480px) and (max-device-width: 767px) {
+
   .menu-mobile {
     text-align: center;
   }
@@ -115,7 +120,7 @@
     font-size: 19px !important;
     font-family: "monserrat-bold" !important;
   }
-  
+
   .conocenos .text-section div {
     font-size: 17px !important;
   }

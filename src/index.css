@@ -81,7 +81,7 @@ a:hover {
   text-decoration: none;
 }
 .box-middle {
-  margin-top: 2%;
+  margin-top: 1%;
   margin-bottom: 2%;
   width: 100%;
 }
@@ -94,22 +94,24 @@ a:hover {
   position: absolute;
   width: 100%;
   z-index: -1;
-  opacity: 0.5;
 }
 .box-middle_text {
   padding-top: 20px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .box-middle_text1 {
-  margin-top: 10px;
   color: white;
-  font-size: 15px;
-  font-weight: bold;
+  font-size: 22px;
+  font-family: "monserrat-bold";
 }
 .box-middle_text2 {
   margin-top: -18px;
   color: white;
-  font-size: 12px;
+  font-size: 16px;
+  font-family: "monserrat-medium";
 }
 
 .botton-img1 {
@@ -131,7 +133,7 @@ a:hover {
 .destacados {
   display: flex;
   flex-direction: row;
-  margin-top: 57px;
+  margin-top: 44px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -153,10 +155,6 @@ a:hover {
   background-image: url("img/somos-la-pinocha-home.png");
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.fondo-medio-front {
-  background-image: url("img/fondo-medio-front.png");
 }
 
 .fondo-medio-back {
@@ -246,10 +244,10 @@ a:hover {
   color: white;
 }
 .logo-footer {
-    width: 50px;
-    margin-left: 25px;
-    margin-top: 15px;
-    position: absolute;
+  width: 50px;
+  margin-left: 25px;
+  margin-top: 15px;
+  position: absolute;
 }
 .text-left-footer {
   align-self: center;
@@ -317,7 +315,8 @@ a:hover {
   text-align: center;
 }
 
-.sucursales .top-section, .franquicias .top-section {
+.sucursales .top-section,
+.franquicias .top-section {
   height: 170px;
 }
 
@@ -330,8 +329,8 @@ a:hover {
 }
 
 .top-section .conoce-nuestra-historia-1,
-.top-section .conoce-nuestra-historia, 
-.top-section .conoce-nuestra-historia-2{
+.top-section .conoce-nuestra-historia,
+.top-section .conoce-nuestra-historia-2 {
   font-family: "monserrat-bold";
   font-size: 20px;
 }
@@ -391,7 +390,7 @@ a:hover {
 .contact-us-center {
   justify-content: center;
 }
-.contact-us-imput {
+.contact-us-input {
   height: 50px;
   width: 100%;
 }
@@ -642,15 +641,18 @@ a:hover {
   max-width: 319px;
 }
 
-.sucursal-open-at span, .sucursal-whatsapp span {
+.sucursal-open-at span,
+.sucursal-whatsapp span {
   margin-left: 5px;
 }
 
-.sucursal-open-at img, .sucursal-whatsapp img {
+.sucursal-open-at img,
+.sucursal-whatsapp img {
   width: 25px;
 }
 
-.sucursales .top-section .familia-la-pinocha, .franquicias .top-section .familia-la-pinocha {
+.sucursales .top-section .familia-la-pinocha,
+.franquicias .top-section .familia-la-pinocha {
   margin-top: 0px !important;
 }
 
@@ -668,4 +670,8 @@ a:hover {
 .middle-banner-home .call-to-action {
   font-family: "monserrat-semi-bold";
   font-size: 13px;
+}
+
+button:disabled {
+  opacity: 0.5;
 }

@@ -33,7 +33,7 @@ const Banners = () => {
           >
             <MiddleBannerHome
               upperText="Bienvenidos #Chocolovers"
-              middleText="Mucho mas que una tentacion"
+              middleText="Mucho más que una tentación"
               callToActionText="COMPRÁ ONLINE"
               href="/productos"
             ></MiddleBannerHome>

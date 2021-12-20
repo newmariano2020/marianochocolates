@@ -2,7 +2,6 @@ const MiddleSection = () => {
   return (
     <div className="box-middle">
       <div className="box-middle_img1">
-        <img className="fondo-medio-front" width="100%" height="100px" alt=""></img>
       </div>
       <div className="box-middle_img2">
         <img className="fondo-medio-back" width="100%" height="100px" alt=""></img>

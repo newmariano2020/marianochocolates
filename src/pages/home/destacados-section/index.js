@@ -20,7 +20,7 @@ const Destacados = () => {
     <div className="col-sm-3 col-md-3 col-xs-1 destacado destacado-3">
      <MiddleSection
       message="Somos La Pinocha"
-      callToActionText="CONOCENOS"
+      callToActionText="CONÓCENOS"
       href="/conocenos"
      ></MiddleSection>
     </div>
