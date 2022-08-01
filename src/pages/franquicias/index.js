@@ -12,7 +12,7 @@ const Franquicias = () => {
     <div className="franquicias">
       <div className="top-section">
         <span className="familia-la-pinocha">
-          ¡Sumate a La Pinocha Chocolates!
+          ¡Sumate a Mariano Chocolates!
         </span>
         <span className="conoce-nuestra-historia-1">
           Formá parte de nuestras franquicias
@@ -21,7 +21,7 @@ const Franquicias = () => {
       <div className="form-section">
         <div className="text-section">
           <p>
-            La Pinocha Chocolates es una empresa en constante crecimiento. Si te
+            Mariano Chocolates es una empresa en constante crecimiento. Si te
             interesa <br />
             adquirir una franquicia y formar parte de nuestra empresa, completá
             el siguiente formulario <br />y un asesor de ventas se pondrá en

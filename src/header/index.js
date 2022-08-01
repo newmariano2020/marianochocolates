@@ -53,7 +53,7 @@ const Header = () => {
         <div className="logo">
           <a href="/">
             <img
-              src={require("../img/logo.png").default}
+              src={require("../img/logo-footer.png").default}
               alt="La Pinocha logo"
             ></img>
           </a>

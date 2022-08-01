@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="right-footer-content">
           <div className="right-footer-content_group-1">
             <span className="right-footer-content_title">
-              La Pinocha Chocolates
+              Mariano Chocolates
             </span>
           </div>
           <div>
@@ -26,7 +26,7 @@ const Footer = () => {
           </div>
           <div>
             <a href="mailto:info@lapinochachocolates.com">
-              <span className="contact-em">info@lapinochachocolates.com</span>
+              <span className="contact-em">info@lMarianochocolates.com</span>
             </a>
           </div>
           <div className="follow-us">
@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
             <div className="footer-logo-right">
               <a
-                href="https://www.instagram.com/lapinochachocolates"
+                href="https://www.instagram.com/MarianoChocolates"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -46,7 +46,7 @@ const Footer = () => {
                 ></img>
               </a>
               <a
-                href="https://es-la.facebook.com/lapinochachocolates"
+                href="https://es-la.facebook.com/Marianochocolates"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -72,7 +72,7 @@ const Footer = () => {
               </div>
               <div className="col">
                 <div className="d-flex flex-column">
-                  <span className="semibold-14">La Pinocha Chocolates</span>
+                  <span className="semibold-14">MarianoChocolates</span>
                   <span className="regular-14">
                     Nacimos en el mar. Crecimos en el bosque
                   </span>
@@ -86,9 +86,9 @@ const Footer = () => {
                 <span className="semibold-14">Escribinos</span>
                 <span className="semibold-14">Estamos para ayudarte</span>
                 <span className="regular-14">
-                  <a href="mailto:info@lapinochachocolates.com">
+                  <a href="mailto:info@Marianochocolates.com">
                     <span className="contact-em">
-                      info@lapinochachocolates.com
+                      info@Marianochocolates.com
                     </span>
                   </a>
                 </span>
@@ -100,7 +100,7 @@ const Footer = () => {
                   </div>
                   <div className="footer-logo-right">
                     <a
-                      href="https://www.instagram.com/lapinochachocolates"
+                      href="https://www.instagram.com/Marianochocolates"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -111,7 +111,7 @@ const Footer = () => {
                       ></img>
                     </a>
                     <a
-                      href="https://es-la.facebook.com/lapinochachocolates"
+                      href="https://es-la.facebook.com/Marianochocolates"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -128,7 +128,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="row rights">
-        <span>Todos los derechos reservados 2021 | Diseño por woopi.com.ar</span>
+        <span>Todos los derechos reservados 2021</span>
       </div>
     </div>
   );
